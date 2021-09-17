@@ -2,7 +2,7 @@
 
 namespace OrderManagementApp.Domain.Users.UserAddresses
 {
-    public class UserAddress
+    public class UserAddress : BaseModel
     {
         public User User { get; private set; }
         public Guid UserId { get; private set; }

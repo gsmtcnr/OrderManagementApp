@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace OrderManagementApp.Domain.Users
 {
-    public class User
+    public class User : BaseModel
     {
         public string Name { get; private set; }
         public string Surname { get; private set; }
