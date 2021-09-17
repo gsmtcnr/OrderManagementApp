@@ -6,6 +6,7 @@ namespace OrderManagementApp.Domain
     {
         protected BaseModel()
         {
+            Id = Guid.NewGuid();
             CreatedDate = DateTime.Now;
         }
         public Guid Id { get; set; }
